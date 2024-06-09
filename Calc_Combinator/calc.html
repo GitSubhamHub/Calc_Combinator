@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #container{
+            height: 600px;
+            width: 100%;
+
+        }
+        #container>h1{
+            text-align: center;
+            color: gray;
+            padding: 30px;
+            
+        }
+        #container>.outer{
+            border: 1px solid salmon;
+            height: 400px;
+            width: 30%;
+            margin: auto;
+            padding: 40px;
+            display: flex;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        }
+        #container>.outer>.inout{
+            /* margin: auto; */
+            justify-content: center;
+            height: 200px;
+            width: 100%;
+            align-content: space-evenly;
+        }
+        #container>.outer>.inout>.inner{
+            border: 1px solid brown;
+            margin: auto;
+            height: 20px;
+            width: 320px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            
+        }
+        /* #container>.outer>.inout>.forbox{
+            justify-content: space-evenly;
+            width: auto;
+            height: 200px;
+            padding: 90px;
+            border: 1px solid black;
+        } */
+        #container>.outer>.inout>div{
+            display: flex;
+            padding: 15px;
+            align-content: space-evenly;
+            
+        }
+        #container>.outer>.inout>div>.box{
+            margin: auto;
+            height: 20px;
+            width: 30px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        }
+        #container>.outer>.inout>div>.op{
+            margin: auto;
+            height: 20px;
+            width: 30px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            border-radius: 12px;
+            background-color: black;
+            color: aliceblue;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        }
+        #container>.outer>.inout>div>.clr{
+             margin: auto;
+            height: 20px;
+            width: 30px;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+            border-radius: 12px;
+            background-color: red;
+            color: aliceblue;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+        }       
+    </style>
+</head>
+<body>
+    <div id="container">
+
+        <h1>Masai Calculator</h1>
+        <div class="outer">
+            <div class="inout">
+            <div class="inner"></div>
+            <!-- <div class="forbox"> -->
+            <div>
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="op">+</div>
+        </div>
+        <div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="op">-</div>
+        </div>
+        <div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="op">X</div>
+        </div>
+        <div>
+            <div class="clr">C</div>
+            <div class="box">0</div>
+            <div class="op">=</div>
+            <div class="op">/</div>
+        </div>
+    <!-- </div> -->
+        </div>
+        </div>
+    </div>
+</body>
+</html>
